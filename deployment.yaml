@@ -30,7 +30,7 @@ spec:
   selector:
     name: tasl-prod
   ports:
-    - port: 80
+    - port: 90
       targetPort: 8080
 ---
 apiVersion: v1
